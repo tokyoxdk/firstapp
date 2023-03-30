@@ -48,16 +48,35 @@ h1,h2,h3,h4,h5,h6{
     right: 0;
     z-index: 1000;
 }
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+}
 
-
-.header_logo{
-    position: relative;
-    margin-left: 20px;
+.header__logo{
     font-family: 'Raleway ExtraBold';
+    font-weight: 700;
     font-size: 29px;
     color: coral;
-    background: url("../images/logo.png") left no-repeat;
-    z-index: 9999999;
+    /*background: url("../images/logo.png") left no-repeat;*/
+    /*z-index: 9999999;*/
 }
     
+.nav{
+    font-family: "Poppins Regular";
+    font-size: 14px;
+    text-transform: uppercase;
+}
 
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    transition: color, 0.2s linear;
+}
+
+.nav__link:hover{
+color: #f7c17b;
+}
