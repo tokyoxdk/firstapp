@@ -31,7 +31,7 @@ h1,h2,h3,h4,h5,h6{
 /* Intro */
 .intro {
     padding-left: 1100px;
-    padding-block:  95px;
+    padding-block:  70px;
     width: 100%;
     height: 100vh;
     line-height: 1.2;
@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 75px;
     color: white;
     text-align: left;
-    line-height: 1;
+    line-height: 1.1;
     max-width: 250px;
 }
 
@@ -135,4 +135,27 @@ color: #f7c17b;
 
 .nav__link:hover::after{
     opacity: 1;
+}
+
+
+
+
+.down {
+    width: 100%;   
+    max-width: 570px;
+    margin: 450px -400px;
+}
+.down_f1{
+
+    font-family: "Poppins Regular";
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.down_f2{
+    font-family: "Poppins Regular";
+    font-size: 14px;
+    text-align: center;
 }
