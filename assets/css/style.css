@@ -30,8 +30,11 @@ h1,h2,h3,h4,h5,h6{
 
 /* Intro */
 .intro {
+    padding-left: 1100px;
+    padding-block:  95px;
     width: 100%;
     height: 100vh;
+    line-height: 1.2;
     background: url("../images/Intro.jpg")center no-repeat;
     background-size: cover;
 }   
@@ -43,8 +46,9 @@ h1,h2,h3,h4,h5,h6{
 } 
 .intro__title{
     font-family: "Raleway Regular" ;
+    font-weight: 100;
     font-size: 75px;
-    color: black;
+    color: white;
     text-align: left;
     line-height: 1;
     max-width: 250px;
@@ -53,6 +57,7 @@ h1,h2,h3,h4,h5,h6{
 
 .intro_subtitle{
     font-family: "Raleway Regular";
+    font-weight: 100;
     font-size: 17px;
     color: white;
 }
@@ -69,17 +74,21 @@ h1,h2,h3,h4,h5,h6{
     z-index: 1000;
 }
 .header__inner{
+    padding-left: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .header__logo{
-    font-family: 'Raleway ExtraBold';
-    font-weight: 700;
-    font-size: 29px;
-    color: #f7c17b
-    /*background: url("../images/logo.png") left no-repeat;*/
+    font-family: 'Raleway Regular';
+    text-transform: uppercase;
+    padding-left: 40px;
+    max-width: 100px;
+    width: 100%;
+    font-size: 25px;
+    color: #f7c17b;
+    background: url("../images/logo.png") 0px -3px no-repeat;
     /*z-index: 9999999;*/
 }
     
