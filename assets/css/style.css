@@ -159,3 +159,13 @@ color: #f7c17b;
     font-size: 14px;
     text-align: center;
 }
+
+.butt22{
+    border: #325662;
+    width: 150px;
+    height: 42px;
+    margin: 0 0 0 200px;
+}
+button{
+    padding: 0 0;
+}
